@@ -16,9 +16,10 @@ const __dirname = path.dirname(__filename);
 // middilewares
 app.use(express.json());
 app.use(cors({
-    origin: "http://localhost:5173",
-    methods: ['POST'],
-    allowedHeaders: ['Content-Type'],
+    origin: ["http://localhost:5173", "https://personal-portfolio-1-anbv.onrender.com"],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
 }));
 app.use(express.urlencoded({extended: true}));
 

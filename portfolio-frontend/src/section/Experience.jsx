@@ -12,7 +12,7 @@ const experiences =[
   {
     period: "till 2024",
     role: "HR Roles",
-    company: "Digital Solutions Co.",
+    company: "GVR Technolabs Pvt Ltd",
     description:
       "Previously worked as an Assistant Manager (HR)...",
     technologies: [],
